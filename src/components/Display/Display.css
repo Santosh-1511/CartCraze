@@ -1,0 +1,94 @@
+.display{
+    display: flex;
+    margin: 0px 170px;
+
+}
+.display-left{
+    display: flex;
+    gap: 17px;
+}
+
+.display-img-list img{
+    height:280px;
+}
+.display-main-img{
+    width:210px;
+    height: 280px; 
+}
+.display-right{
+    margin: 0px 70px;
+    display: flex;
+    flex-direction:column;
+
+}
+.display-right h1{
+    color:#3d3d3d;
+    font-size: 20px;
+    font-weight: 700;
+}
+.display-right-star{
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    gap: 5px;
+    color:#1c1c1c;
+    font-size: 16px;
+
+}
+.display-right-star p{
+    font-size: 12px;
+}
+.display-right-prices{
+    display:flex;
+    margin: 8px 0px;
+    gap: 30px;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+.display-right-price-old{
+    color: #818181;
+    text-decoration: line-through;
+}
+.display-right-price-new{
+    color:#ff4141;
+
+}
+.display-right-size h1{
+    margin-top: 8px;
+    color: #656565;
+    font-size: 20px;
+    font-weight:600;
+}
+.display-right-sizes{
+    display: flex;
+    padding: 5px;
+    margin: 15px 0px;
+    gap:  20px;
+
+}
+.display-right-sizes div{
+    margin-top: 2px;
+    margin-bottom: 10px;
+    padding: 4px 4px;
+    background: #fbfbfb;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+.display-right button{
+    padding: 10px 20px;
+    width: 180px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #ff4141;
+    margin-bottom: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    
+
+}
